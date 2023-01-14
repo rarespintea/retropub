@@ -1,0 +1,365 @@
+
+
+<!--For multipager-->
+<!--include m-tabs-events--><!DOCTYPE html><!--[if IE 8 ]>
+<html lang="en" class="no-js ie8"></html><![endif]-->
+<!--[if IE 9 ]>
+<html lang="en" class="no-js ie9"></html><![endif]-->
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Booze - Creative HTML Template">
+    <meta name="author" content="createIT">
+    <title>Booze - Old Fashioned Final HTML Template</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1 shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/booze.css"><!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.min.js"></script>
+    <script src="../assets/js/respond.min.js"></script>
+    <script src="../assets/js/es5-shim.min.js"></script><![endif]-->
+  </head>
+  <body class="cssAnimate">
+    <!-- Mobile Menu //-->
+    <div class="ct-button">
+      <button type="button" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+    </div>
+    <div class="ct-menuMobile">
+      <ul class="ct-menuMobile-navbar list-unstyled">
+        <li class="onepage"><a href="#home" class="ct-js-btnScroll">home</a></li>
+        <li class="onepage"><a href="#menus" class="ct-js-btnScroll">menus</a></li>
+        <li class="onepage"><a href="#blog" class="ct-js-btnScroll">blog</a></li>
+        <li class="onepage"><a href="#events" class="ct-js-btnScroll">events</a></li>
+        <li class="onepage"><a href="#master" class="ct-js-btnScroll">masterclass</a></li>
+        <li class="onepage"><a href="#gallery" class="ct-js-btnScroll">gallery</a></li>
+        <li class="onepage"><a href="#contact" class="ct-js-btnScroll">contact</a></li>
+      </ul>
+    </div>
+    <div id="ct-js-wrapper" class="ct-pageWrapper">
+      <div class="ct-button">
+        <button type="button" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      </div>
+      <div class="ct-menuMobile">
+        <ul class="ct-menuMobile-navbar list-unstyled">
+          <li class="dropdown"><a href="index.html">home</a>
+            <ul class="dropdown-menu">
+              <li><a href="index.html">index onepager</a></li>
+              <li><a href="index-multipager.html">index multipager</a></li>
+            </ul>
+          </li>
+          <li><a href="menus.html">menus</a></li>
+          <li class="dropdown"><a href="blog.html">blog</a>
+            <ul class="dropdown-menu">
+              <li><a href="blog.html">blog</a></li>
+              <li><a href="blog-single.html">blog single</a></li>
+            </ul>
+          </li>
+          <li><a href="events.html">events</a></li>
+          <li><a href="masterclass.html">masterclass</a></li>
+          <li><a href="gallery.html">gallery</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+      <nav class="navbar navbar-default ct-centeredMenu ct-menu--color">
+        <div class="container">
+          <ul class="nav navbar-nav ct-leftSide ct-navbar--fadeIn">
+            <li class="dropdown"><a href="index-multipager.html">home</a>
+              <ul class="dropdown-menu">
+                <li><a href="index.html">Index Onepager</a></li>
+                <li><a href="index-multipager.html">Index Multipager</a></li>
+              </ul>
+            </li>
+            <li><a href="menus.html">menus</a></li>
+            <li class="dropdown"><a href="blog.html">blog</a>
+              <ul class="dropdown-menu">
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="blog-single.html">blog single</a></li>
+              </ul>
+            </li>
+            <li><a href="events.html">events</a></li>
+          </ul>
+          <div class="navbar-header"><a href="index-multipager.html" class="navbar-brand"><img src="../assets/images/content/booze/logo.png" alt="Image"></a></div>
+          <ul class="nav navbar-nav ct-rightSide">
+            <li><a href="masterclass.html">masterclass</a></li>
+            <li><a href="gallery.html">gallery</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+      </nav>
+      <div class="ct-bookTable ct-bookTable--border">
+        <div class="ct-bookTable-form">
+          <form action="../assets/form/send.php" method="post" data-email-subject="Contact Form" data-show-errors="true" class="contactForm validateIt">
+            <div class="form-group ct-u-paddingBottom15 ct-u-borderBottom">
+              <div class="ct-datePicker">
+                <label class="control-label label-typeFirst">when</label>
+                <input type="text" name="field[]" placeholder="MM/DD/YYYY" required="" class="form-control input-lg input-typeThird ct-js-datePicker">
+              </div>
+            </div>
+            <div class="form-group ct-u-paddingBottom15 ct-u-paddingTop15 ct-u-borderBottom">
+              <label class="control-label label-typeFirst">when exactly</label>
+              <input type="time" name="field[]" placeholder="7pm" required="" class="form-control input-lg input-typeThird">
+            </div>
+            <div class="form-group ct-u-paddingBottom15 ct-u-paddingTop15">
+              <label class="control-label label-typeFirst">how many</label>
+              <input type="text" placeholder="_ _" name="[]" required="" class="form-control input-lg input-typeThird">
+            </div>
+            <div class="form-group">
+              <button type="submit" data-padding-left="32" data-padding-right="32" class="btn btn-link btn-sm ct-js-btnSize btn-block">book a table</button>
+            </div>
+          </form>
+        </div>
+      </div><a href="#" data-padding-left="32" data-padding-right="32" class="btn btn-primary btn-border btn-xs ct-js-bookBtn ct-bookBtn ct-js-btnSize">book a table</a>
+      <!--Main Slider Sections//-->
+      <div class="ct-subHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="ct-pageTitle">Single Blog
+                <div class="ct-bredcrumb">
+                  <ol class="breadcrumb">
+                    <li><a href="index-multipager.html">Home</a></li>
+                    <li class="active">Blog Single</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Blog Single Section//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+      <section itemscope itemtype="http://schema.org/Blog" class="ct-u-backgroundLight">
+        <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting" class="ct-article ct-article--single">
+          <div class="ct-article-content--single">
+            <div class="ct-article--media"><img src="../assets/images/content/booze/blog-single.jpg" alt="Blog"></div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-10 col-md-offset-1 text-center">
+                  <div class="ct-article-title ct-u-paddingBottom40">Great music, great Evening!</div>
+                  <ul class="list-inline list-unstyled ct-dateList">
+                    <li>
+                      <div itemprop="dateCreated" class="ct-article-date"><i class="fa fa-calendar">&nbsp;</i><span class="ct-article-date-dateDay">tuesday,&nbsp;</span><span class="ct-article-date-dateMonth ct-u-color--motive">august&nbsp;</span><span class="ct-article-date-dateMonth ct-u-color--motive">04</span></div>
+                    </li>
+                    <li><i class="fa fa-tags">&nbsp;</i>
+                      <ul class="list-inline list-unstyled ct-article-tags">
+                        <li><a href="#">all</a></li>
+                        <li class="ct-u-color--motive"><a href="#">events</a></li>
+                        <li><a href="#">music</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <div class="ct-article-comments"><i class="fa fa-comment">&nbsp;</i><span itemprop="commentCounts"><span class="ct-u-color--motive">3</span> Comments</span></div>
+                    </li>
+                  </ul>
+                  <div class="ct-article-description ct-u-paddingTop50 ct-u-paddingBottom30">
+                    <p class="ct-u-paddingBottom15">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.</p>
+                    <p class="ct-u-paddingBottom15">Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metusAenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis.</p>
+                    <p>Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                  </div>
+                  <ul class="list-inline list-unstyled">
+                    <li><i class="fa fa-tags ct-tag">&nbsp;</i>
+                      <ul class="list-inline list-unstyled ct-article-tags">
+                        <li><a href="#">events</a></li>
+                        <li><a href="#">music</a></li>
+                        <li><a href="#">piano</a></li>
+                        <li><a href="#">jazz</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <div class="ct-u-paddingTop40 text-center"><img src="../assets/images/content/booze/author.png" alt="Image">
+                    <div class="ct-author">Victor Wagman</div>
+                    <div class="ct-authorDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="ct-u-backgroundColorDark ct-u-paddingBoth30 ct-u-displayTable ct-shareSection">
+        <div class="ct-u-displayTableCell">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 text-center">
+                <div class="ct-u-fontSize22 text-uppercase ct-u-colorWhite ct-u-fontType1">share this post</div>
+                <p class="ct-u-fontSize18 ct-u-colorWhite ct-u-paddingTop10 ct-u-paddingBottom15 ct-u-fontType1 ct-u-Opacity70">If you like what we have posted, please dont hesitate and share the crap out of it!</p>
+                <ul class="ct-socials ct-socials--third--anotherHover list-inline list-unstyled">
+                  <li><a href="https://www.facebook.com/createITpl"><i data-icon-size="18" class="fa fa-facebook ct-js-iconSize"></i></a></li>
+                  <li><a href="https://twitter.com/createitpl"><i data-icon-size="18" class="fa fa-twitter ct-js-iconSize"></i></a></li>
+                  <li><a href="#"><i data-icon-size="18" class="fa fa-rss ct-js-iconSize"></i></a></li>
+                  <li><a href="#"><i data-icon-size="18" class="fa fa-google-plus ct-js-iconSize"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ct-navigation ct-u-displayTable">
+        <div class="ct-u-displayTableCell">
+          <div class="ct-previous"><a href="#">previous post</a></div>
+          <div class="ct-previousPost">Scotch & Whisky know the difference!</div>
+        </div>
+        <div class="ct-u-displayTableCell">
+          <div class="ct-next"><a href="#">next post</a></div>
+          <div class="ct-nextPost">James "The piano" Turner comes!</div>
+        </div>
+      </section>
+      <section class="ct-u-backgroundColorDark ct-u-paddingTop50 ct-u-paddingBottom70 ct-commentSection">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <div class="ct-number-of-comments ct-u-paddingBottom40 ct-u-fontType1"><span class="ct-u-color--motive">3&nbsp;</span><span>comments</span></div>
+              <div class="ct-u-borderAnother"></div>
+              <ul class="ct-comments list-unstyled ct-u-paddingTop40">
+                <li>
+                  <div class="mediaBox text-left"><a href="#" class="pull-left"><img src="../assets/images/content/booze/author1-big.png" alt="Image" class="grayscale-fade grayscale"></a>
+                    <div class="mediaBox-body">
+                      <div class="mediaBox-inner-body"><span class="media-heading"><a href="#">james arnold &nbsp;</a></span><span class="ct-comment-meta">TUESDAY, AUGUST 04 | &nbsp;</span><span class="ct-replyButton"><a href="#">reply</a></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <ol class="list-unstyled children">
+                    <li>
+                      <div class="mediaBox text-left"><a href="#" class="pull-left"><img src="../assets/images/content/booze/author2-big.png" alt="Image" class="grayscale-fade grayscale"></a>
+                        <div class="mediaBox-body">
+                          <div class="mediaBox-inner-body"><span class="media-heading"><a href="#">james arnold &nbsp;</a></span><span class="ct-comment-meta">TUESDAY, AUGUST 12 | &nbsp;</span><span class="ct-replyButton"><a href="#">reply</a></span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ol>
+                </li>
+                <li class="ct-u-paddingBottom40">
+                  <div class="mediaBox text-left"><a href="#" class="pull-left"><img src="../assets/images/content/booze/author1-big.png" alt="Image" class="grayscale-fade grayscale"></a>
+                    <div class="mediaBox-body">
+                      <div class="mediaBox-inner-body"><span class="media-heading"><a href="#">james arnold &nbsp;</a></span><span class="ct-comment-meta">MONDAY, AUGUST 09 | &nbsp;</span><span class="ct-replyButton"><a href="#">reply</a></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="ct-u-borderAnother"></div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ct-u-backgroundLight ct-contactSection--blog">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <h6 class="ct-u-paddingTop65 ct-u-paddingBottom40 ct-addComment">Add a comment</h6>
+              <form action="../assets/form/send.php" method="post" data-email-subject="Contact Form" data-show-errors="true" class="contactForm validateIt">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="form-group ct-u-paddingBottom15">
+                      <input type="text" name="field[]" placeholder="Your Name" required="" class="form-control input-typeSecond">
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="form-group ct-u-paddingBottom15">
+                      <input type="text" name="field[]" placeholder="Last Name" required="" class="form-control input-typeSecond">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 col-sm-12">
+                    <div class="form-group ct-u-paddingBottom15">
+                      <textarea rows="6" name="field[]" placeholder="Comment" class="form-control input-typeSecond"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row ct-u-paddingTop25">
+                  <button type="submit" class="btn btn-primary btn-sm btn-border btn-stretched">submit the form</button>
+                </div>
+              </form>
+              <div style="display:none" class="successMessage alert alert-success ct-u-marginTop15">
+                <button type="button" data-dismiss="alert" aria-hidden="true" class="close">&times;</button>
+                <p>Thank You!</p>
+              </div>
+              <div style="display:none" class="errorMessage alert alert-danger ct-u-marginTop15">
+                <button type="button" data-dismiss="alert" aria-hidden="true" class="close">&times;</button>
+                <p>Ups! An error occured. Please try again later.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ct-mapSection">
+        <div data-location="666 Hells Kitchen, New York City" data-height="420" data-zoom="13" data-text="Booze" class="ct-googleMap ct-googlemapStyle"></div>
+      </section>
+      <footer class="ct-footer">
+        <section class="ct-preFooter">
+          <div class="container">
+            <div class="row ct-row">
+              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-left"><a href="index-multipager.html"><img src="../assets/images/content/booze/logo-footer.png" alt="Image"></a></div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ct-contactBox">
+                <h6 class="ct-headerBottom">Contact us</h6>
+                <ul class="list-unstyled ct-contactList">
+                  <li>Adress:<br/> 600 Gtrand St. New York, NY, 11211<i data-icon-size="22" data-left="0" class="fa fa-map-marker ct-js-iconSize ct-js-position"></i></li>
+                  <li>Phone:<br/>Tel:<a href="tel:070088087">&nbsp;0049 -  123 456 789 - 0</a><i data-icon-size="20" data-left="-2" class="fa fa-phone ct-js-iconSize ct-js-position"></i></li>
+                  <li>Web:<br/><a href="http://booze.html.themeforest.createit.pl/">www.booze.com<br/></a><a href="mailto:hello@booze.com">hello@booze.com</a><i data-icon-size="16" data-left="-2" class="fa fa-envelope ct-js-iconSize ct-js-position"></i></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ct-twitterBox">
+                <h6 class="ct-headerBottom">Latest Tweets</h6>
+                <div class="ct-js-twitter ct-tweet"></div>
+              </div>
+              <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 ct-followBox">
+                <h6 class="ct-headerBottom">Follow us</h6>
+                <ul class="list-unstyled ct-footerUp">
+                  <li><a href="https://www.facebook.com/createITpl">Facebook</a><i data-left="4" data-top="0" data-icon-size="23" class="fa fa-facebook ct-js-position ct-js-iconSize"></i></li>
+                  <li><a href="https://twitter.com/createitpl">Twitter</a><i data-left="0" data-top="0" data-icon-size="27" class="fa fa-twitter ct-js-position ct-js-iconSize"></i></li>
+                  <li><a href="#">Instagram</a><i data-left="0" data-top="0" data-icon-size="27" class="fa fa-instagram ct-js-position ct-js-iconSize"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div><a href="#" class="ct-js-btnScrollUp is-active"><span><i class="fa fa-angle-up"></i></span></a>
+        </section>
+        <section class="ct-postFooter">
+          <div class="container ct-containerFix">
+            <div class="row">
+              <div class="ct-u-displayTableVertical">
+                <div class="ct-u-displayTableCell ct-footerCol1">
+                  <p class="ct-copyright">Copyright &copy; 2016 BOOZE</p>
+                </div>
+                <div class="ct-u-displayTableCell ct-footerCol2 text-right">
+                  <ul class="ct-map-links list-inline list-unstyled text-uppercase">
+                    <li><a href="index-multipager.html" class="ct-js-btnScroll"><span data-hover="home">home</span></a></li>
+                    <li><a href="menus.html" class="ct-js-btnScroll"><span data-hover="menus">menus</span></a></li>
+                    <li><a href="blog.html" class="ct-js-btnScroll"><span data-hover="blog">blog</span></a></li>
+                    <li><a href="events.html" class="ct-js-btnScroll"><span data-hover="events">events</span></a></li>
+                    <li><a href="masterclass.html" class="ct-js-btnScroll"><span data-hover="masterclass">masterclass</span></a></li>
+                    <li><a href="gallery.html" class="ct-js-btnScroll"><span data-hover="gallery">gallery</span></a></li>
+                    <li><a href="contact.html" class="ct-js-btnScroll"><span data-hover="contact">contact</span></a></li>
+                  </ul>
+                </div>
+                <div class="ct-u-displayTableCell ct-footerCol3 text-right">
+                  <p class="ct-authorPage"><span>Design by<a href="http://www.createit.pl/">&nbsp; CreateIT</a></span></p>
+                  <p class="ct-copyright ct-displayHide">Copyright &copy; 2016 BOOZE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </div>
+    <!-- JavaScripts-->
+    <script src="../assets/js/booze.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <!--Twitter-->
+    <script src="../assets/twitter/js/jquery.tweet.js"></script>
+    <!-- Google Maps-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCheNy7zWQrflLP-TMOt8rmOFWt22GbuZA&libraries=places,geometry"></script>
+    <script src="../assets/js/gmaps/gmap3.min.js"></script>
+    <script src="../assets/js/gmaps/init.js"></script>
+    <!-- Contact Form-->
+    <script src="../assets/form/js/form.js"></script>
+  </body>
+</html>
